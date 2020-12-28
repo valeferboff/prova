@@ -1,0 +1,232 @@
+@charset "UTF-8";
+
+/*CSS Document*/
+
+html, body {
+	height: 100%;
+	margin: 0;
+  padding: 0;
+  width: 100%;
+  font-size: 20px;
+}
+
+h1 {
+	font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+}
+
+p {
+  font-size: 0.7rem;
+}
+
+.desc {
+  font-size: 0.8rem;
+}
+
+.mynav {
+  background-image: url("Immagini/AM_sfondo.png");
+  height: 35rem;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: transparent !important;
+}
+
+.bg-light.scrolled {
+  background-color: black !important;
+}
+
+.bg-light.scrolled:hover {
+  color: rgb(250, 201, 103);
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: black;
+}
+
+.mynav .navbar-nav {
+  margin-right: 5rem;
+  margin-top: 0.5px;
+}
+
+.mynav .navbar-nav .nav-item {
+  padding-right: 3rem;
+}
+
+.dropdown-menu {
+  min-width: 7rem;
+  background-color: white;
+}
+
+.dropdown-menu .dropdown-item {
+  color: black;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: rgb(250, 201, 103);
+}
+
+#logoar {
+  margin-left: 7rem;
+  margin-top: 0.5rem;
+}
+
+.first {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+
+.bi-vinyl-fill {
+  margin-bottom: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+#firstr h2 {
+  text-align: center;
+  line-height: 10rem;
+  color: white;
+}
+
+#secondr {
+  margin-bottom: 5rem;
+}
+
+.btn-primary {
+  background-color: black;
+  border: black;
+}
+
+.btn-primary:hover {
+	background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.second {
+  background-color: rgb(250, 201, 103);
+  height: 65rem;
+}
+
+.img-thumbnail {
+  padding: 0;
+  border: 0;
+  height: 20rem;
+  width: 20rem;
+}
+
+.row .col-4 .effect {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 1.25rem;
+  right: 1.25rem;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+}
+
+.row .col-4 .effect:hover .overlay {
+  opacity: 0.8;
+}
+
+.text {
+  color: white;
+  filter: brightness(200%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%)
+}
+
+footer {
+  background-color: black;
+  height: 15rem;
+}
+
+footer #logoar {
+  margin-top: 1rem;
+}
+
+footer .container-fluid .row .col-4 h4 {
+  color: white;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.social img {
+  margin-top: 0.5rem;
+  height: 2rem;
+  width: 2rem;
+}
+
+#ig {
+  margin-right: 0.6rem;
+  margin-left: 0.6rem;
+}
+
+#yt {
+  margin-left: 0.6rem;
+  margin-top: 1.5rem;
+}
+
+footer .navbar-nav .nav-item .nav-link {
+  font-size: 0.8rem;
+  margin-left: 30%;
+}
+
+footer .navbar-nav .nav-item .nav-link:hover {
+  color:  rgb(250, 201, 103);
+}
+
+.social .text-center a {
+  color: black;
+}
+
+footer .container-fluid .row .col-4 .social .text-center a:hover {
+  color: black);
+}
+
+footer .navbar-nav {
+  margin-top: 3rem;
+}
+
+footer p {
+  color:white;
+}
+
+.cc {
+  margin-top: 4rem;
+  margin-right: 1.75rem;
+}
+
+.social {
+  margin-top: 3rem;
+}
+
+footer .container-fluid .row .col-4 .logo {
+  margin-top: 2.5rem;
+}
